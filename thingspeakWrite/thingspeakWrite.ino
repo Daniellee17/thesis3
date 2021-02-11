@@ -1,3 +1,4 @@
+#include <ThingSpeak.h>
 #include <SoftwareSerial.h>
 SoftwareSerial gprsSerial(7,8);
  
@@ -14,8 +15,8 @@ void setup()
  
 void loop()
 {
-      float h = 5.0;
-      float t = 6.0; 
+      float h = 9.0;
+      float t = 8.0; 
       delay(100);   
          
       Serial.print("Temperature = ");
