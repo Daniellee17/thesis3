@@ -4,6 +4,11 @@ SoftwareSerial gprsSerial(7, 8);
 
 #include <String.h>
 
+// ThingSpeak information
+char* server = "api.thingspeak.com";
+unsigned long channelID = 742592;
+char* readAPIKey = "3QTHZH1C59VFPVEO";
+unsigned int dataFieldOne = 1;   
 
 void setup()
 {
